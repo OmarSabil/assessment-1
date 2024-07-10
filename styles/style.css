@@ -79,20 +79,21 @@
 }
 
 /* Main */
-main{
-}
-.web-dev{
-    width: 1140px;
+.why{
     height: 1300px;
-    display: block;
     border: none;
     border-radius: 16px;
-    margin: 74px auto;
     padding: 80px 97px;
     background-color: #0D132105;
 }
+.web-dev{
+    width: 1140px;
+    display: block;
+    margin: 74px auto;
+}
+
 /* Why Web Development */
-.why{
+.center{
     text-align: center;
 }
 .text-title{
@@ -142,4 +143,9 @@ main{
     margin: 32px 0;
     border-color: #0D1321;
     padding: 12px 20px;
+}
+.zero-hero{
+    border: 1px solid #0d132129;
+    border-radius: 16px;
+    padding: 32px;
 }
