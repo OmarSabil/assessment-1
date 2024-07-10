@@ -7,14 +7,14 @@
 
 
 /* color, font */
-.dark-1 {
-    color: #0D1321;
-}
+    /* color: #0D1321; */
+
 
 
 * {
     margin: 0;
     padding: 0;
+    color: #0D1321;
 }
 
 /* Optional Styles */
@@ -41,7 +41,7 @@
 /* Intro Styles */
 #intro {
     height: 880px;
-    background-image: url("../assets/bg.jpg");
+    background-image: url("../assets/hero-bg.png");
     background-size: cover;
     background-position: center;
 }
@@ -83,12 +83,16 @@ main{
 }
 .web-dev{
     width: 1140px;
-    height: 1395px;
+    height: 1300px;
     display: block;
     border: none;
+    border-radius: 16px;
     margin: 74px auto;
     padding: 80px 97px;
     background-color: #0D132105;
+}
+/* Why Web Development */
+.why{
     text-align: center;
 }
 .text-title{
@@ -100,5 +104,42 @@ main{
     opacity: 0.7;
     font-size: 16px;
     font-weight: 400;
-    margin: 24px 0;
+    margin: 24px 0 48px 0;
+}
+/* All Reasons */
+.all-reasons{
+    display: flex;
+    align-items: center;
+    width: 946px;
+    height: 336px;
+    border: none;
+    border-radius: 16px;
+    background-color: white;
+    padding: 0 48px;
+    margin: 32px auto;
+    align-items: center;}
+.reason{
+    padding-right: 32px;
+}
+.reason0{
+    padding-left: 32px;
+}
+.text-sub{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+.text-sub-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 16px 0;
+}
+.btn-learn-more{
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+    margin: 32px 0;
+    border-color: #0D1321;
+    padding: 12px 20px;
 }
