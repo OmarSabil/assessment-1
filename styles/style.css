@@ -248,3 +248,17 @@
     align-items: center;
     margin: 40px;
 }
+
+/* Footer Style */
+.bg{
+    height: 80px;
+    background-color: #004CE80D;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    padding-top: 20px;
+}
