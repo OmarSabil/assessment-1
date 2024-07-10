@@ -35,7 +35,7 @@
 /* Intro Styles */
 #intro {
     height: 880px;
-    background-image: url("../assets/hero-bg.png");
+    background-image: url("../assets/bg.png");
     background-size: cover;
     background-position: center;
 }
