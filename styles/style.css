@@ -6,10 +6,10 @@
 }
 
 
-/* color, font */
-    /* color: #0D1321; */
-
-
+/* Additionals */
+.margin-top{
+    margin-top: 150px;
+}
 
 * {
     margin: 0;
@@ -148,4 +148,43 @@
     border: 1px solid #0d132129;
     border-radius: 16px;
     padding: 32px;
+    margin-bottom: 50px;
+}
+
+/* My Current Target */
+.html-bg{
+    background-color: #FF4C1E0D;
+}
+.css-bg{
+    background-color: #004CE80D;
+}
+.js-bg{
+    background-color: #FFDF000D;
+}
+.all-targets{
+    display: flex;
+
+}
+.target{
+    margin: 24px;
+    border: none;
+    border-radius: 16px;
+    padding: 40px;
+}
+.logo{
+    margin-bottom: 24px;
+}
+.target-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 8px;
+}
+.target-description{
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.target-learn-more{
+    font-size: 16px;
+    font-weight: 700;
 }
